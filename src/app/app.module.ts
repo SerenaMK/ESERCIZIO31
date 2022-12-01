@@ -12,20 +12,20 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { DettagliComponent } from './components/dettagli/dettagli.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    HomeComponent,
-    PostAttiviComponent,
-    PostInattiviComponent,
-    PostCardComponent,
-    NavbarComponent,
-    DettagliComponent
-  ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+    declarations: [
+        AppComponent,
+        HomeComponent,
+        PostAttiviComponent,
+        PostInattiviComponent,
+        PostCardComponent,
+        NavbarComponent,
+        DettagliComponent
+    ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule
+    ],
+    providers: [],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }
